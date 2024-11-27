@@ -25,3 +25,59 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
     <artifactId>spring-core</artifactId>
     <version>6.1.6</version>
 </dependency>
+
+
+body{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+   
+
+    } 
+ 
+.login 
+{ 
+    box-shadow: 20px 20px 30px rgb(100, 158, 235); 
+    width: 400px; 
+    height: 400px; 
+    background-color:aqua;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-weight: bold; 
+    font-family:'sans-serif';
+    
+} 
+ 
+input 
+{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 300px; 
+    height: 40px; 
+    margin-top:20px; 
+    border: none; 
+    box-shadow: 5px 5px 4px wheat; 
+    border-radius: 10px;
+    text-align: center;
+} 
+button 
+{ 
+    border-radius: 50px; 
+    border: none; 
+    background-color: rgb(79, 162, 230); 
+    color: white; 
+    font-weight: bolder; 
+    font-size: medium; 
+    height: 30px; 
+    width: 150px; 
+    margin-left: 20%; 
+    cursor: pointer;
+    
+} 
+
+
+
+ 
